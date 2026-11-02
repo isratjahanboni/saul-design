@@ -1,0 +1,44 @@
+/* All Common CSS start Here */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* All Common CSS start Here */
+#header{
+    padding: 50px 0;
+    background-color:#222831;
+}
+
+
+.menulist ul{
+    display: flex;
+    gap: 48px;
+
+}
+.manuflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menulist ul li a{
+  font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #EEEEEE;
+
+}
