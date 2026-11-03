@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+      background-color: #222831;
+        font-family: "Poppins", sans-serif;
 }
 
 
@@ -22,6 +24,7 @@ a{
 #header{
     padding: 50px 0;
     background-color:#222831;
+    border-bottom:1px solid #eeeeee24 ;
 }
 
 
@@ -36,9 +39,60 @@ a{
     justify-content: space-between;
 }
 .menulist ul li a{
-  font-family: "Poppins", sans-serif;
+
 font-weight: 400;
 font-size: 18px;
 color: #EEEEEE;
 
 }
+/* Banner Part Start Here */
+#bannerPart{
+    padding-top: 163px;
+    padding-bottom: 172px;
+  
+}
+.bannerContantLeft h1 {
+    font-weight: 700px;
+    font-size: 96px;
+    line-height: 106px;
+    color: #EEEEEE;
+    width: 586px;
+    margin-bottom: 48px;
+}
+.bannerContantLeft h1 span{
+    color: #00ADB5;
+}
+.bannerBtn{
+    display: flex;
+    gap: 24px;
+
+}
+.bannerBtn button{
+    background: #00ADB5;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 24px;
+    font-weight: 70px;
+    font-size:70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Banner Part Start Here */
