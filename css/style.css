@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-      background-color: #222831;
         font-family: "Poppins", sans-serif;
 }
 
@@ -11,6 +10,7 @@
 .container{
     width: 1320px;
     margin: 0 auto;
+   
 }
 
 ol, ul{
@@ -24,7 +24,8 @@ a{
 #header{
     padding: 50px 0;
     background-color:#222831;
-    border-bottom:1px solid #eeeeee24 ;
+       border-bottom:1px solid #eeeeee24 ;
+  
 }
 
 
@@ -49,6 +50,9 @@ color: #EEEEEE;
 #bannerPart{
     padding-top: 163px;
     padding-bottom: 172px;
+    
+      background-color: #222831;
+     
   
 }
 .bannerContantLeft h1 {
@@ -72,11 +76,16 @@ color: #EEEEEE;
     padding: 10px 32px;
     border: none;
     border-radius: 24px;
-    font-weight: 70px;
-    font-size:70px;
+   
 
 }
-
+.bannerBtn button a{
+     font-weight: 700;
+    font-size: 18px;
+    color: #EEEEEE;
+    text-shadow: 0px 4px 4px #000000;
+}
+.bannerBtn button 
 
 
 
