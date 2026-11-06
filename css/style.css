@@ -50,10 +50,16 @@ color: #EEEEEE;
 #bannerPart{
     padding-top: 163px;
     padding-bottom: 172px;
-    
-      background-color: #222831;
-     
+     background-color: #222831;
+
   
+}
+.bannerContant{
+
+    display: flex;
+    gap: 35px;
+    position: relative;
+
 }
 .bannerContantLeft h1 {
     font-weight: 700px;
@@ -62,6 +68,15 @@ color: #EEEEEE;
     color: #EEEEEE;
     width: 586px;
     margin-bottom: 48px;
+}
+.bannerContant .icon{
+    position: absolute;
+    top: 100px;
+    left: -20px;
+}
+.bannerContantLeft{
+    margin-top: 49px;
+    margin-left: 60px;
 }
 .bannerContantLeft h1 span{
     color: #00ADB5;
@@ -85,23 +100,10 @@ color: #EEEEEE;
     color: #EEEEEE;
     text-shadow: 0px 4px 4px #000000;
 }
-.bannerBtn button 
+.bannerBtn button:hover{
+    background-color: #393e465f;
+    transition: all linear 0.2s;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /* Banner Part Start Here */
